@@ -19,7 +19,7 @@ for price in prices:
   # create a variable called average_price to find the avg price
   average_price = total_price/len(prices)
 #Print the value of average_price
-print('Average Haircut Price: $' + str(average_price))
+print('Average Price For a Haircut: $' + str(average_price))
 
 #Use a list comprehension to make a list called new_prices, which has each element in prices minus 5.
 new_prices = [price - 5 for price in prices]
